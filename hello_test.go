@@ -1,8 +1,8 @@
-package hello
+package main
 
 import "testing"
 
-func Test_main(t *testing.T) {
+func TestMain(t *testing.T) {
 
 	assertCorrectMessage := func(t testing.TB, got, want string) {
         t.Helper()
