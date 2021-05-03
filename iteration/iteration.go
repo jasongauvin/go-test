@@ -1,4 +1,4 @@
-package main
+package iteration
 
 // Take a character and repeat this with the repeatCount
 func Repeat(character string, repeatCount int) string {
